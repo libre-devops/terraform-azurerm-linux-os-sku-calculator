@@ -1,0 +1,3 @@
+Location    Name
+----------  -----------
+uksouth     12-sp4-gen2

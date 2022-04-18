@@ -1,0 +1,8 @@
+Location    Name
+----------  -----------------
+uksouth     10
+uksouth     10-backports
+uksouth     10-backports-gen2
+uksouth     10-cloudinit
+uksouth     10-cloudinit-gen2
+uksouth     10-gen2

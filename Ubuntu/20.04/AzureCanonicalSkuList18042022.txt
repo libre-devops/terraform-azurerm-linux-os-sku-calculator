@@ -1,0 +1,4 @@
+Location    Name
+----------  --------------
+uksouth     20_04-lts
+uksouth     20_04-lts-gen2

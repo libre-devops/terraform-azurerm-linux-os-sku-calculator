@@ -1,0 +1,4 @@
+Location    Name
+----------  --------------------
+uksouth     22_04-daily-lts
+uksouth     22_04-daily-lts-gen2
