@@ -20,7 +20,5 @@ variable "standard_os" {
     "Ubuntu18.04" = "Canonical,UbuntuServer,18.04-LTS"
     "Ubuntu20.04" = "Canonical,0001-com-ubuntu-server-focal,20_04-lts"
     "Ubuntu22.04" = "Canonical,0001-com-ubuntu-server-jammy-daily,22_04-daily-lts"
-
-
   }
 }

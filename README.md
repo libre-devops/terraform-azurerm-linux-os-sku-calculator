@@ -7,9 +7,9 @@ Simple pass the OS you want to the variable, and it will output the values of th
 
 ```hcl
 module "os_calculator" {
-  source = "github.com/libre-devops/terraform-azurerm-win-os-sku-calculator"
+  source = "github.com/libre-devops/terraform-azurerm-lnx-os-sku-calculator"
 
-  vm_os_simple = "Debian" // will give you WindowsServer2019 sku properties, to be used in windows-vm module
+  vm_os_simple = "Debian11" // will give you WindowsServer2019 sku properties, to be used in windows-vm module
 }
 ```
 ## Requirements
@@ -32,8 +32,8 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_standard_os"></a> [standard\_os](#input\_standard\_os) | Definition of the standard OS with "SimpleName" = "publisher,offer,sku", this can have many more skus added to it | `map` | <pre>{<br>  "Windows10": "MicrosoftWindowsDesktop,Windows-10,win10-21h2-ent-ltsc",<br>  "Windows11": "MicrosoftWindowsDesktop,Windows-11,win11-21h2-ent",<br>  "WindowsServer2008": "MicrosoftWindowsServer,WindowsServer,2008-R2-SP1",<br>  "WindowsServer2012": "MicrosoftWindowsServer,WindowsServer,2012-Datacenter",<br>  "WindowsServer2016": "MicrosoftWindowsServer,WindowsServer,2012-Datacenter",<br>  "WindowsServer2019": "MicrosoftWindowsServer,WindowsServer,2019-Datacenter",<br>  "WindowsServer2019WithContainers": "MicrosoftWindowsServer,WindowsServer,2019-Datacenter-with-Containers",<br>  "WindowsServer2022": "MicrosoftWindowsServer,WindowsServer,2022-Datacenter",<br>  "WindowsServerAzureEdition": "MicrosoftWindowsServer,WindowsServer,2022-datacenter-azure-edition"<br>}</pre> | no |
-| <a name="input_vm_os_simple"></a> [vm\_os\_simple](#input\_vm\_os\_simple) | n/a | `string` | `""` | no |
+| <a name="input_standard_os"></a> [standard\_os](#input\_standard\_os) | Definition of the standard OS with "SimpleName" = "publisher,offer,sku", this can have many more skus added to it | `map` | <pre>{<br>  "CentOS7": "OpenLogic,CentOS,7_8",<br>  "CentOS8": "OpenLogic,CentOS,8_5",<br>  "Debian10": "Debian,debian-10,10",<br>  "Debian11": "Debian,debian-11,11",<br>  "FlatcarFree": "kinvolk,flatcar-container-linux-free,stable",<br>  "FlatcarPro": "kinvolk,flatcar_pro,stable",<br>  "RHEL7": "RedHat,RHEL,7_9",<br>  "RHEL8": "RedHat,RHEL,8_5",<br>  "SLES12": "SUSE,SLES,12-sp4-gen2",<br>  "Ubuntu16.04": "Canonical,UbuntuServer,16.04-LTS",<br>  "Ubuntu18.04": "Canonical,UbuntuServer,18.04-LTS",<br>  "Ubuntu20.04": "Canonical,0001-com-ubuntu-server-focal,20_04-lts",<br>  "Ubuntu22.04": "Canonical,0001-com-ubuntu-server-jammy-daily,22_04-daily-lts",<br>  "openSuse15": "SUSE,openSUSE-Leap,15-2"<br>}</pre> | no |
+| <a name="input_vm_os_simple"></a> [vm\_os\_simple](#input\_vm\_os\_simple) | If using this module, pass one of the keys as the variable to get that image properties | `string` | `""` | no |
 
 ## Outputs
 
