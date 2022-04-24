@@ -1,0 +1,6 @@
+Location    Name
+----------  -----------------------------
+uksouth     cis-oracle7-l1
+uksouth     cis-oracle7-l1-for-cis
+uksouth     cis-oracle7-l1-vw-po
+uksouth     cis-oracle7-l1-vw-po-jan-2022

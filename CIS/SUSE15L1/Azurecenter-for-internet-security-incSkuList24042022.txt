@@ -1,0 +1,5 @@
+Location    Name
+----------  ----------------------------
+uksouth     cis-suse15-l1
+uksouth     cis-suse15-l1-vw-po
+uksouth     cis-suse15-l1-vw-po-jan-2022

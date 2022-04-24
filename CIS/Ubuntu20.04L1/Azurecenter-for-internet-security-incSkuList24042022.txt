@@ -1,0 +1,5 @@
+Location    Name
+----------  ------------------------------
+uksouth     cis-ubuntu2004-l1
+uksouth     cis-ubuntu2004-l1povw
+uksouth     cis-ubuntu2004-l1povw-jan-2022

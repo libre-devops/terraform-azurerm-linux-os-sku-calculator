@@ -1,0 +1,6 @@
+Location    Name
+----------  ----------------------------------------
+uksouth     cis-oracle8-l1
+uksouth     cis-oracle8-l1-vw-po
+uksouth     cis-oracle8-l1-vw-po-jan-2022
+uksouth     cisoraclelinux8benchmarkl1forcisinternal

@@ -1,0 +1,5 @@
+Location    Name
+----------  ---------------------------
+uksouth     cis-rhel7-l1
+uksouth     cis-rhel7-l1-vw-po
+uksouth     cis-rhel7-l1-vw-po-jan-2022

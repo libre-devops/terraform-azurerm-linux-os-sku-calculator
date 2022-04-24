@@ -1,0 +1,6 @@
+Location    Name
+----------  ----------------------------------
+uksouth     cis-ubuntu-1804-lts-l1-private-015
+uksouth     cis-ubuntu1804-l1
+uksouth     cis-ubuntu1804-l1-vw-po
+uksouth     cis-ubuntu1804-l1-vw-po-jan-2022

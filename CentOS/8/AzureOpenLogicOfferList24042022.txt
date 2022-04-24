@@ -1,0 +1,8 @@
+Location    Name
+----------  -------------------------
+uksouth     CentOS
+uksouth     CentOS-CI
+uksouth     CentOS-HPC
+uksouth     CentOS-LVM
+uksouth     centos_corevm_test-200331
+uksouth     centos_corevm_test-200408

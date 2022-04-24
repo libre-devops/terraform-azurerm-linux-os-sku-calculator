@@ -1,0 +1,5 @@
+Location    Name
+----------  ---------------------------
+uksouth     cis-centos8-l1
+uksouth     cis-centos8-l1povw
+uksouth     cis-centos8-l1povw-jan-2022

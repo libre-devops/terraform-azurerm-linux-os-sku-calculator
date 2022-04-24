@@ -20,5 +20,18 @@ variable "standard_os" {
     "Ubuntu18.04" = "Canonical,UbuntuServer,18.04-LTS"
     "Ubuntu20.04" = "Canonical,0001-com-ubuntu-server-focal,20_04-lts"
     "Ubuntu22.04" = "Canonical,0001-com-ubuntu-server-jammy-daily,22_04-daily-lts"
+    "CISCentos7L1" = "center-for-internet-security-inc,"
+    "CISCentos8L1" = "center-for-internet-security-inc,"
+    "CISDebian9L1" = "center-for-internet-security-inc,"
+    "CISDebian10L1" = "center-for-internet-security-inc,"
+    "CISOracleLinux7L1" = "center-for-internet-security-inc,"
+    "CISOracleLinux8L1" = "center-for-internet-security-inc,"
+    "CISRHEL7L1" = "center-for-internet-security-inc,"
+    "CISRHEL7L2" = "center-for-internet-security-inc,"
+    "CISRHEL8L1" = "center-for-internet-security-inc,"
+    "CISRHEL8L2" = "center-for-internet-security-inc,"
+    "CISSUSE15L1" = "center-for-internet-security-inc,"
+    "CISUbuntu18.04L1" = "center-for-internet-security-inc,"
+    "CISUbuntu20.04L2" = "center-for-internet-security-inc,"
   }
 }
