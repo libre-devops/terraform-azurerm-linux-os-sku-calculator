@@ -34,6 +34,6 @@ variable "standard_os" {
     "CISRHEL8L2"        = "center-for-internet-security-inc,cis-rhel-8-l2,cis-rhel8-l2"
     "CISSUSE15L1"       = "center-for-internet-security-inc,cis-suse15-l1,cis-suse15-l1"
     "CISUbuntu18.04L1"  = "center-for-internet-security-inc,cis-ubuntu-linux-1804-l1,cis-ubuntu1804-l1"
-    "CISUbuntu20.04L2"  = "center-for-internet-security-inc,cis-ubuntu-linux-2004-l1,cis-ubuntu2004-l1"
+    "CISUbuntu20.04L1"  = "center-for-internet-security-inc,cis-ubuntu-linux-2004-l1,cis-ubuntu2004-l1"
   }
 }
