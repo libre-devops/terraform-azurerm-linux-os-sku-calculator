@@ -1,9 +1,3 @@
-variable "vm_os_simple" {
-  default     = ""
-  description = "If using this module, pass one of the keys as the variable to get that image properties"
-}
-
-# Definition of the standard OS with "SimpleName" = "publisher,offer,sku", this can have many more skus added to it
 variable "standard_os" {
   default = {
     "CentOS7"           = "OpenLogic,CentOS,7_8"
@@ -37,3 +31,10 @@ variable "standard_os" {
     "CISUbuntu20.04L1"  = "center-for-internet-security-inc,cis-ubuntu-linux-2004-l1,cis-ubuntu2004-l1"
   }
 }
+
+variable "vm_os_simple" {
+  default     = ""
+  description = "If using this module, pass one of the keys as the variable to get that image properties"
+}
+
+# Definition of the standard OS with "SimpleName" = "publisher,offer,sku", this can have many more skus added to it
