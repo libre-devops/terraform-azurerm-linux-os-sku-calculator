@@ -1,0 +1,4 @@
+Location    Name
+----------  --------------
+uksouth     22_04-lts
+uksouth     22_04-lts-gen2

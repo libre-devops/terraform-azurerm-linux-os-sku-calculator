@@ -1,0 +1,3 @@
+HyperVGeneration    Location    Name
+------------------  ----------  ------
+V2                  uksouth     8.5.17

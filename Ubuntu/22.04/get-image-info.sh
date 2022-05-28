@@ -2,7 +2,7 @@
 
 LOCATION="uksouth"
 PUBLISHER="Canonical"
-OFFER="0001-com-ubuntu-server-jammy-daily"
+OFFER="0001-com-ubuntu-server-jammy"
 VERSION="Latest"
 SKU="18.04-LTS"
 
