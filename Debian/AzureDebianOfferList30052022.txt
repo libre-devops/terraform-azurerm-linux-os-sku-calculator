@@ -1,0 +1,8 @@
+Location    Name
+----------  ----------------
+uksouth     debian-10
+uksouth     debian-10-daily
+uksouth     debian-11
+uksouth     debian-11-daily
+uksouth     debian-12-daily
+uksouth     debian-sid-daily

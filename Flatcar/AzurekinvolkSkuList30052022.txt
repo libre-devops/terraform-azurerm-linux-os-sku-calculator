@@ -1,0 +1,12 @@
+Location    Name
+----------  -----------------------
+uksouth     alpha
+uksouth     alpha-gen2
+uksouth     beta
+uksouth     beta-gen2
+uksouth     lts2022
+uksouth     lts2022-gen2
+uksouth     release-test-automation
+uksouth     rta-gen2
+uksouth     stable
+uksouth     stable-gen2
