@@ -1,0 +1,3 @@
+Location    Name
+----------  -----------------------
+uksouth     oracle-database-19-0904

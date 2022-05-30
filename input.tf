@@ -1,13 +1,14 @@
 variable "standard_os" {
   default = {
     "AlmaLinux8"       = "almalinux,almalinux,8_5"
-    "AlmaLinux8"       = "almalinux,almalinux,8_5-gen2"
+    "AlmaLinux8Gen2"   = "almalinux,almalinux,8_5-gen2"
     "CentOS7"          = "OpenLogic,CentOS,7_8"
     "CentOS8"          = "OpenLogic,CentOS,8_5"
     "Debian10"         = "Debian,debian-10,10"
     "Debian11"         = "Debian,debian-11,11"
     "OracleLinux7"     = "Oracle,Oracle-Linux,ol79"
     "OracleLinux8"     = "Oracle,Oracle-Linux,ol82"
+    "OracleDatabase19" = "oracle,oracle-database-19-3,oracle-database-19-0904"
     "FlatcarFree"      = "kinvolk,flatcar-container-linux-free,stable"
     "FlatcarPro"       = "kinvolk,flatcar_pro,stable"
     "openSuse15"       = "SUSE,openSUSE-Leap,15-2"
