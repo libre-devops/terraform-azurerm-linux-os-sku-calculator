@@ -1,6 +1,7 @@
 variable "standard_os" {
   default = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "CentOS7"      = "OpenLogic,CentOS,7_8"
     "CentOS8"      = "OpenLogic,CentOS,8_5"
     "Debian10"     = "Debian,debian-10,10"
@@ -18,6 +19,8 @@ variable "standard_os" {
     "Ubuntu20.04"  = "Canonical,0001-com-ubuntu-server-focal,20_04-lts"
     "Ubuntu22.04"  = "Canonical,0001-com-ubuntu-server-jammy,22_04-lts"
 =======
+=======
+>>>>>>> main
     "CentOS7"          = "OpenLogic,CentOS,7_8"
     "CentOS8"          = "OpenLogic,CentOS,8_5"
     "Debian10"         = "Debian,debian-10,10"
@@ -50,7 +53,10 @@ variable "standard_os" {
     "Ubuntu18.04Gen2"  = "Canonical,UbuntuServer,18_04-lts-gen2"
     "Ubuntu20.04Gen2"  = "Canonical,0001-com-ubuntu-server-focal,20_04-lts-gen2"
     "Ubuntu22.04Gen2"  = "Canonical,0001-com-ubuntu-server-jammy-daily,22_04-daily-lts-gen2"
+<<<<<<< HEAD
 >>>>>>> 25f4351 (Update)
+=======
+>>>>>>> main
   }
 }
 
