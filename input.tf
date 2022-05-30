@@ -14,6 +14,7 @@ variable "standard_os" {
     "openSuse15"       = "SUSE,openSUSE-Leap,15-2"
     "RHEL7"            = "RedHat,RHEL,7_9"
     "RHEL8"            = "RedHat,RHEL,8_5"
+    "RHEL9"            = "RedHat,RHEL,9_0"
     "Ubuntu16.04"      = "Canonical,UbuntuServer,16.04-LTS"
     "Ubuntu18.04"      = "Canonical,UbuntuServer,18.04-LTS"
     "Ubuntu20.04"      = "Canonical,0001-com-ubuntu-server-focal,20_04-lts"
