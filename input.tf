@@ -1,5 +1,7 @@
 variable "standard_os" {
   default = {
+    "AlmaLinux8"       = "almalinux,almalinux,8_5"
+    "AlmaLinux8"       = "almalinux,almalinux,8_5-gen2"
     "CentOS7"          = "OpenLogic,CentOS,7_8"
     "CentOS8"          = "OpenLogic,CentOS,8_5"
     "Debian10"         = "Debian,debian-10,10"
