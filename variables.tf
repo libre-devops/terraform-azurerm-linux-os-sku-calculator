@@ -43,8 +43,8 @@ variable "standard_os" {
     "Ubuntu22.04Gen2"        = "Canonical,0001-com-ubuntu-server-jammy,22_04-lts-gen2"
     "Ubuntu23.04"            = "Canonical,0001-com-ubuntu-server-lunar,23_04"
     "Ubuntu23.04Gen2"        = "Canonical,0001-com-ubuntu-server-lunar,23_04-gen2"
-    "Ubuntu24.04"            = "Canonical,ubuntu-24_04-lts,server"
-    "Ubuntu24.04Gen2"        = "Canonical,ubuntu-24_04-lts,server-gen2"
+    "Ubuntu24.04Gen1"        = "Canonical,ubuntu-24_04-lts,server-gen1"
+    "Ubuntu24.04Gen2"        = "Canonical,ubuntu-24_04-lts,server"
     "openSuse15"             = "SUSE,openSUSE-Leap,15-2"
     "openSuse15Gen2"         = "SUSE,openSUSE-Leap,15-2-gen2"
   }
